@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f415b97e0c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Daniel - Portfolio</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="scroll-btn-div">
+        <span
+          onclick="toggleSection(1)"
+          class="scroll-btn scroll-btn-active"
+          id="scroll-btn-1"
+        ></span>
+
+        <span
+          onclick="toggleSection(2)"
+          class="scroll-btn"
+          id="scroll-btn-2"
+        ></span>
+
+        <span
+          onclick="toggleSection(3)"
+          class="scroll-btn"
+          id="scroll-btn-3"
+        ></span>
+
+        <span
+          onclick="toggleSection(4)"
+          class="scroll-btn"
+          id="scroll-btn-4"
+        ></span>
+      </div>
+
+      <section class="section" id="section-1">
+        <div class="box-1">
+          <div class="title">
+            <span>D</span><span>a</span><span>n</span><span>i</span
+            ><span>e</span><span>l</span> <span>B</span><span>r</span
+            ><span>a</span><span>g</span><span>a</span> <span>C</span
+            ><span>o</span><span>m</span><span>i</span><span>n</span
+            ><span>e</span><span>t</span><span>t</span><span>i</span>
+          </div>
+          <p class="sub-title">Full-Stack Developer</p>
+          <div>
+            <a
+              class="icon icon_ icon-github"
+              href="https://www.github.com/dKally"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              class="icon icon_ icon-linkedin"
+              href="https://www.linkedin.com/in/daniel-braga-cominetti-317746229"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="title-skills">
+          <span>T</span><span>e</span><span>c</span><span>h</span><span>n</span
+            ><span>o</span><span>l</span><span>o</span><span>g</span><span>i</span
+            ><span>e</span><span>s</span>
+            <span>a</span><span>n</span><span>d</span>
+            <span>T</span><span>o</span><span>o</span><span>l</span><span>s</span>
+        </div>
+
+        <div class="skills">
+          <div class="skills-1">HTML <i class="fa-brands fa-html5"></i></div>
+          <div class="skills-2">CSS <i class="fa-brands fa-css3-alt"></i></div>
+          <div class="skills-3">JavaScript <i class="fa-brands fa-js"></i></div>
+          <div class="skills-4">NodeJS <i class="fa-brands fa-node"></i></div>
+          <div class="skills-5">MongoDB <i class="fa-brands fa-mdb"></i></div>
+          <div class="skills-6">
+            Bootstrap <i class="fa-brands fa-bootstrap"></i>
+          </div>
+          <div class="skills-7">
+            JQuery <i class="fa-solid fa-clipboard-question"></i>
+          </div>
+          <div class="skills-8">Firebase <i class="fa-solid fa-fire"></i></div>
+          <div class="skills-9">
+            ExpressJS <i class="fa-solid fa-mug-hot"></i>
+          </div>
+          <div class="skills-10">
+            ElectronJS <i class="fa-solid fa-atom"></i>
+          </div>
+          <div class="skills-11">
+            ReactJS <i class="fa-brands fa-react"></i>
+          </div>
+          <div class="skills-12">
+            Outras... <i class="fa-solid fa-question"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="section-2">
+        <div class="projects-div">
+          <div class="projects project-1 project-position-1">
+            <div class="title-div">
+                <img
+                  src="./img/shopping-list.png"
+                  alt="icon-project"
+                  class="icon-project"
+                />
+                <p class="title-project">Shopping List</p>
+              </div>
+  
+              <p class="description-project">
+                A mobile shopping list app where you can manage your lists
+                and your entire list is saved in your Google account, so you never run the risk of losing
+                your list and makes it possible to access it from any mobile device.
+              </p>
+              <p class="title-technologies">Main Technologies:</p>
+              <div class="technologies">
+                <span><i class="fa-brands fa-react"></i> React Native;</span>
+                <span><i class="fa-brands fa-node"></i> NodeJS;</span>
+                <span><i class="fa-brands fa-html5"></i> HTML & CSS;</span>
+                <span><i class="fa-solid fa-question"></i> Outras...</span>
+              </div>
+              <div class="links-project">
+                <!-- <a
+                  class="icon icon-playstore"
+                  href="https://www.github.com/dKally"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <i class="fa-brands fa-google-play"></i>
+                </a> -->
+                <a
+                  class="icon icon-youtube"
+                  href="https://youtube.com/shorts/SfluVD4CfMY?feature=share "
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+          </div>
+
+          <div class="projects project-2 project-active">
+            <div class="title-div">
+              <img
+                src="./img/romeu.jpg"
+                alt="icon-project"
+                class="icon-project"
+              />
+              <p class="title-project">Coming soon...</p>
+            </div>
+
+            <p class="description-project">
+              An app I'm currently working on, <br/>
+              (While there's no icon yet, here's my cat. Isn't he cute?)
+            </p>
+            <p class="title-technologies">Main Technologies:</p>
+            <div class="technologies">
+              <span><i class="fa-solid fa-atom"></i> ElectronJS;</span>
+              <span><i class="fa-brands fa-node"></i> NodeJS;</span>
+              <span><i class="fa-brands fa-react"></i> ReactJS;</span>
+              <span><i class="fa-solid fa-question"></i> Outras...</span>
+            </div>
+            <div class="links-project">
+              <a
+                class="icon icon-github"
+                href="https://www.github.com/dKally"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="projects project-3 project-position-3">
+            <div class="title-div">
+              <img
+                src="./img/Project-1.png"
+                alt="icon-project"
+                class="icon-project"
+              />
+              <p class="title-project">FiadoAPP</p>
+            </div>
+
+            <p class="description-project">   
+              A simple application to register customer purchases for
+              subsequent payments. I mainly used a library
+              NodeJS FileSystem to save records locally.
+            </p>
+            <p class="title-technologies">Main Technologies:</p>
+            <div class="technologies">
+              <span><i class="fa-solid fa-atom"></i> ElectronJS;</span>
+              <span><i class="fa-brands fa-node"></i> NodeJS;</span>
+              <span><i class="fa-brands fa-html5"></i> HTML & CSS;</span>
+              <span><i class="fa-solid fa-question"></i> Outras...</span>
+            </div>
+            <div class="links-project">
+              <a
+                class="icon icon-github"
+                href="https://github.com/dKally/fiado-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="projects project-4 project-position-4">
+            <div class="title-div">
+              <img
+                src="./img/allappsunited.png"
+                alt="icon-project"
+                class="icon-project"
+              />
+              <p class="title-project">AllAppsUnited</p>
+            </div>
+
+            <p class="description-project">
+              An application I worked on, which combines several applications into one, I can also have multiple accounts for one application
+              (I can, for example, have 2 WhatsApp in different accounts). <br/>
+              I can't reveal much about the application, as it hasn't been released yet, but I will put up a short demonstration video.
+            </p>
+            <p class="title-technologies">Main Technologies:</p>
+            <div class="technologies">
+              <span><i class="fa-solid fa-atom"></i> ElectronJS;</span>
+              <span><i class="fa-brands fa-node"></i> NodeJS;</span>
+              <span><i class="fa-solid fa-fire"></i> Firebase;</span>
+              <span><i class="fa-solid fa-question"></i> Outras...</span>
+            </div>
+            <div class="links-project">
+              <a
+                class="icon icon-youtube"
+                href="https://youtu.be/YVth7ynAP8E"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <span class="arrow-right"><i class="fa-solid fa-arrow-right"></i></span>
+        <span class="arrow-left"><i class="fa-solid fa-arrow-left"></i></span>
+      </section>
+
+      <section class="section" id="section-3">
+        <div class="about-me">
+          <p class="title-about-me">"Who am I?"</p>
+
+          <p class="description-about-me">
+            I'm a Full-Stack Developer and I'm currently
+            studying Systems Analysis and Development. <br />
+            I have experience in developing websites, applications and even
+            even when creating bots. <br />
+            <br />
+            My programming journey started 3 years ago with the
+            <a
+              href="https://programadorbr.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link"
+              >Igor Oliveira's course (ProgramadorBR)</a
+            >, which I finished in less than 6 months. Since then, I have been
+            dedicated to continuous learning, practicing on your own and
+            working as a freelancer. Over more than 2 years as
+            freelancer, I learned and improved many skills, realizing that the
+            practice and constant creation are essential for growth in
+            technology area. <br />
+            <br />
+            This year, I took another important step in my career by starting
+            the "Systems Analysis and Development faculty", with the aim of expanding my knowledge and
+            develop myself even further as a professional.
+            <br />
+            During my career, I acquired a solid skill in solving
+            problem solving and bug fixing, fundamental skills for
+            face the challenges of software development. <br />
+          </p>
+          <span class="link linkToTools" onclick="toggleSection(1)"
+            >Languages/Tools I use are here:</span
+          >
+          <br />
+          <span class="link linkToCert" onclick="toggleSection(4)"
+            >My certificates are here:</span
+          >
+        </div>
+      </section>
+
+      <section class="section" id="section-4">
+        <!-- Certificados -->
+        <p class="title-cert">Certificates:</p>
+        <div class="cert">
+          <a
+            href="https://certificados.programadorbr.com/certificado/DVWBDBC22HT275116"
+            target="_blank"
+            class="cert-1"
+            >HTML, CSS <br/> & JavaScript <i class="fa-brands fa-square-js"></i>
+          </a>
+          <a target="_blank" href="https://certificados.programadorbr.com/certificado/DVWBDBC22FI275116" class="cert-2"
+            >FireBase, JQuery <br/> and BootStrap <i class="fa-solid fa-fire"></i
+          ></a>
+          <a target="_blank" href="https://certificados.programadorbr.com/certificado/DVWBDBC22NO275116" class="cert-3">NodeJS & <br/> MongoDB <i class="fa-brands fa-node"></i></a>
+          <a target="_blank" href="https://certificados.programadorbr.com/certificado/DVWBDBC22EL275116" class="cert-4">ElectronJS <i class="fa-solid fa-atom"></i></a>
+          <a target="_blank" href="https://certificados.programadorbr.com/certificado/DVWBDBC22RE275116" class="cert-5">
+            ReactJS <i class="fa-brands fa-react"></i>
+          </a>
+          <a href="" class="cert-6">
+            <!-- TODO: Adicionar target="_blank" e o link do certificado -->
+            <!-- 1° Trimestre <br/> Faculdade  -->
+            Coming Soon...
+            
+            <i class="fa-solid fa-laptop"></i>
+          </a>
+      </section>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/title-skills-animation2.js"></script>
+  </body>
+</html>
